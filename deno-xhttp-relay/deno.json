@@ -1,0 +1,11 @@
+{
+  "$schema": "https://deno.land/x/deno/cli/schemas/config-file.v1.json",
+  "name": "xhttp-relay",
+  "version": "1.0.0",
+  "tasks": {
+    "dev": "deno run --allow-net --allow-env main.ts"
+  },
+  "compilerOptions": {
+    "lib": ["deno.window"]
+  }
+}
